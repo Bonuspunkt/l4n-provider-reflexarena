@@ -1,7 +1,6 @@
 {
   "name": "l4n-provider-reflexarena",
   "version": "0.5.0",
-  "description": "",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
@@ -11,5 +10,16 @@
   "dependencies": {
     "debug": "^3.1.0",
     "l4n-query": "0.0.0"
-  }
+  },
+  "devDependencies": {},
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Bonuspunkt/l4n-provider-reflexarena.git"
+  },
+  "keywords": [],
+  "bugs": {
+    "url": "https://github.com/Bonuspunkt/l4n-provider-reflexarena/issues"
+  },
+  "homepage": "https://github.com/Bonuspunkt/l4n-provider-reflexarena#readme",
+  "description": ""
 }

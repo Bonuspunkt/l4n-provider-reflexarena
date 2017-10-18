@@ -36,7 +36,7 @@ const modes = [{
 }, {
     id: 'race',
     name: 'Race',
-    lobby: { minPlayers: 1 },
+    lobby: { minPlayers: 2 },
     args: ['+sv_startmode', 'race'],
 }, {
     id: 'ctf',
