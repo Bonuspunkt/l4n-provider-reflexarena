@@ -68,6 +68,9 @@ module.exports = ({ workingDir }) => ({
     })),
     portRange: [25700, 25800],
     getArgs,
+    getPrivateInfo: ({ ip, port }) => {
+        return `# [connect to server](steam://connect/${ip}:${port})`;
+    },
     command: {
         win32: 'reflexded.exe',
     },
